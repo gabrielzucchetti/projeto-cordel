@@ -6,6 +6,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
 
 header {
     background-color: black;
@@ -47,8 +48,8 @@ div {
 
 
 main > article > div > p {
-    font-family: 'Sriracha', cursive;
-    font-size:2.3vw; /*10% da view width, da largura da tela, assim o tamanho da letra segue o tamanho da largura.*/
+    font-family: 'Sriracha','Fuzzy Bubbles', cursive;
+    font-size:3vh; /*10% da view width, da largura da tela, assim o tamanho da letra segue o tamanho da largura.*/
 }
 
 div#joaninha {
@@ -65,11 +66,11 @@ p.transparente  {
 
 #joaninha {
     background-image: url('https://professorguanabara.github.io/projeto-cordel/imagens/background001.jpg');
-    max-height: 40vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right center;
-    background-attachment: fixed;
+    max-height:40vh;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:right center;
+    background-attachment:fixed;
     color: white;
 }
 
