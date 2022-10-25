@@ -1,0 +1,111 @@
+@charset "UTF-8"; 
+
+* {
+    margin: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+header {
+    background-color: black;
+    text-align: center;
+    max-height: 400px;
+}
+
+header > h1 {
+    font-size: 10vw; /*10% da view width, da largura da tela, assim o tamanho da letra segue o tamanho da largura.*/
+    font-weight: bolder;
+    font-family: 'Lobster', cursive, sans-serif, 'Times New Roman',;
+    color: white;
+    padding-top: 50px;
+    /*font-variant: small-caps; para as primeiras letras ficarem maiúsculas/maiores que as maiúsculas.*/
+    /*text-transform: uppercase;para todas as letras ficarem maiúsculas*/
+}
+
+header > p {
+    color: white;
+    padding-bottom: 50px;
+}
+
+header > p > a:hover {
+    text-decoration: underline;
+}
+
+header > p > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+div {
+    padding-top:10vh; /*substituí esses dois pelo padding de 100px que tinha antes, para ele ficar mais responsivo*/
+    padding-bottom: 10vh;
+    padding-left: 5vh;
+    /*line-height: 1em; espaçamento entre as linhas*/ 
+}
+
+
+main > article > div > p {
+    font-family: 'Sriracha', cursive;
+    font-size:2.3vw; /*10% da view width, da largura da tela, assim o tamanho da letra segue o tamanho da largura.*/
+}
+
+div#joaninha {
+    padding-top: 30px;
+    box-shadow: inset 10px 10px 30px #0000002f;
+}
+
+p.transparente  {
+    background-color: #000000be;
+    max-width: 700px;
+    display: inline-block;
+    padding: 5px;
+}
+
+#joaninha {
+    background-image: url('https://professorguanabara.github.io/projeto-cordel/imagens/background001.jpg');
+    max-height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+    color: white;
+}
+
+div#livro {
+    padding-top: 30px;
+    box-shadow: inset 10px 10px 30px #0000002f;
+}
+
+
+#livro {
+    background-image: url('https://professorguanabara.github.io/projeto-cordel/imagens/background002.jpg');
+    max-height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+    background-attachment: fixed;
+    color: white;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight:100;
+}
+
+footer > aside > p > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer > aside > p > a:hover {
+    text-decoration: underline;
+}
+
